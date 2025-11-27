@@ -25,6 +25,7 @@ Organização das Equipes
 • Equipe 1: Prevenção e Conscientização (Quiz Interativo) 
 
 o Foco: Educação do usuário final. 
+
 o Solução: Um Quiz gamificado que ensina, através de perguntas e 
 cenários práticos, como ativar e utilizar as proteções do GOV.BR (2FA, 
 selos de confiabilidade, etc.). 
@@ -32,6 +33,7 @@ selos de confiabilidade, etc.).
 • Equipe 2: Suporte e Conhecimento (Chatbot) 
 
 o Foco: Suporte ativo e repositório de dúvidas. 
+
 o Solução: Um assistente virtual inteligente capaz de responder perguntas 
 frequentes sobre fraudes e orientar o usuário na recuperação e proteção 
 de sua conta. 
