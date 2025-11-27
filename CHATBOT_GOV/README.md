@@ -62,7 +62,7 @@ o Para este MVP, não estamos utilizando chaves de API externas
 complexas. Porém, se houver necessidade de configurações específicas, 
 renomeie o arquivo de exemplo: 
 o cp .env.example .env 
-## Edite o arquivo .env com suas configurações se 
+Edite o arquivo .env com suas configurações se 
 necessário
 
 ## 5. Executar a Aplicação
