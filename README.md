@@ -5,7 +5,7 @@ Este projeto é fruto da colaboração entre o mercado corporativo e estudantes 
 de Análise e Desenvolvimento de Sistemas, com o objetivo de criar soluções 
 inovadoras para segurança cibernética.
 
-# Contexto e Desafio 
+## Contexto e Desafio 
 
 Uma empresa parceira apresentou um desafio real: a necessidade de centralizar e 
 disseminar conhecimentos sobre antifraudes cibernéticas, com foco específico nas 
@@ -14,13 +14,13 @@ Atualmente, a dispersão de informações dificulta que o cidadão comum utilize
 plenamente os recursos de segurança disponíveis, tornando-o vulnerável a fraudes e 
 engenharia social. 
 
-# O Hackathon 
+## 🚀 O Hackathon 
 
 Para solucionar essa problemática, foi criada uma Squad ágil, dividida em duas frentes 
 de trabalho (equipes), cada uma responsável por uma abordagem distinta do 
 problema: 
 
-# Organização das Equipes 
+## 👥 Organização das Equipes 
 
 • Equipe 1: Prevenção e Conscientização (Quiz Interativo) 
 
