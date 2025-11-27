@@ -1,11 +1,11 @@
 
-# Chatbot Antifraude GOV.BR 
+# 🤖 Chatbot Antifraude GOV.BR 
 
 o Este diretório contém o código-fonte e a documentação técnica do 
 Chatbot Antifraude, desenvolvido pela Equipe 2 durante o Hackathon da 
 Residência Tecnológica.
 
-# Sobre a Solução 
+# 📋Sobre a Solução 
 
 o O Chatbot atua como uma Central de Dúvidas Inteligente. Ele foi 
 desenhado para ser a primeira linha de suporte ao usuário que suspeita 
@@ -31,7 +31,9 @@ informação seguras.
 • Lógica de Conversa: Árvore de Decisão baseada em estados (State 
 Management) 
 • Gerenciador de Pacotes: npm ou yarn
-
+## 🚀 Passo a Passo para Execução do MVP 
+o Siga as instruções abaixo para implantar a solução em um novo 
+ambiente (local) do zero.
 # 1 - Pré-requisitos 
 
 o Certifique-se de ter instalado em sua máquina: 
