@@ -1,4 +1,3 @@
-o Solução Equipe 2:
 
 # Chatbot Antifraude GOV.BR 
 
