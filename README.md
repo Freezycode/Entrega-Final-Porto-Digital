@@ -85,7 +85,7 @@ O navegador abrirá em uma porta como:
 
 http://127.0.0.1:5501/
 
-### ✔️ Acesso ao projeto com link direto
+### ✔️ Acesso ao projeto do CHATBOT com link direto
 
 link para acessar:
 https://chatbot-ri7o.vercel.app/
