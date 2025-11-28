@@ -19,3 +19,73 @@ Para solucionar essa problemática, foi criada uma Squad ágil, dividida em duas
 • **Equipe 2: Suporte e Conhecimento (Chatbot)**  
   **Foco:** Suporte ativo e repositório de dúvidas.  
   **Solução:** Um assistente virtual inteligente capaz de responder perguntas frequentes sobre fraudes e orientar o usuário na recuperação e proteção de sua conta.
+
+## ▶️ Como Rodar os Projetos (Quiz + Chatbot)
+
+Este repositório contém dois projetos independentes, cada um criado por uma equipe da Squad.  
+Ambos são 100% frontend, ou seja, não usam Node.js, Express, banco de dados ou dependências externas.  
+Eles funcionam diretamente no navegador.
+
+---
+
+## 🎮 Projeto 1 — Quiz Interativo (Equipe 1)
+
+### ✔️ Como rodar (modo simples)
+
+Clone o repositório:
+
+git clone https://github.com/Freezycode/Entrega-Final-Porto-Digital.git
+
+yaml
+Copiar código
+
+Entre na pasta do Quiz.  
+Clique duas vezes no arquivo **index.html**.  
+O quiz abrirá automaticamente no navegador.
+
+---
+
+### ✔️ Rodar com Live Server (VS Code)
+
+Abra o projeto no VS Code.  
+Clique com o botão direito em **index.html**.  
+Selecione **“Open with Live Server”**.
+O projeto abrirá em:
+
+http://127.0.0.1:5500/
+
+### ✔️ Acesso ao projeto QUIZ com link direto
+
+link para acessar:
+https://quiz-indol-three.vercel.app/
+
+---
+
+## 🤖 Projeto 2 — Chatbot “Gov.br Seguro” (Equipe 2)
+
+### ✔️ Como rodar (modo simples)
+
+Clone o repositório:
+
+git clone https://github.com/Freezycode/Entrega-Final-Porto-Digital.git
+
+Entre na pasta do chatbot.  
+Clique duas vezes no arquivo **index.html**.  
+O sistema abrirá automaticamente, simulando uma interface de smartphone.
+
+---
+
+### ✔️ Rodar com Live Server (VS Code)
+
+Abra o projeto no VS Code.  
+Clique com o botão direito em **index.html**.  
+Clique em **“Open with Live Server”**.
+
+O navegador abrirá em uma porta como:
+
+http://127.0.0.1:5501/
+
+### ✔️ Acesso ao projeto com link direto
+
+link para acessar:
+https://chatbot-ri7o.vercel.app/
