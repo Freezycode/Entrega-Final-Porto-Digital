@@ -5,7 +5,7 @@ Este projeto é fruto da colaboração entre o mercado corporativo e estudantes 
 de Análise e Desenvolvimento de Sistemas, com o objetivo de criar soluções  
 inovadoras para segurança cibernética.
 
----
+
 Contexto e Desafio
 
 Uma empresa parceira apresentou um desafio real: a necessidade de centralizar e  
@@ -15,7 +15,7 @@ Atualmente, a dispersão de informações dificulta que o cidadão comum utilize
 plenamente os recursos de segurança disponíveis, tornando-o vulnerável a fraudes e  
 engenharia social.
 
----
+
 
  🚀 O Hackathon
 
@@ -125,7 +125,7 @@ Entre na pasta do chatbot.
 Clique duas vezes no arquivo **index.html**.  
 O sistema abrirá automaticamente, simulando uma interface de smartphone.
 
----
+
 
 ### ✔️ Rodar com Live Server (VS Code)
 
