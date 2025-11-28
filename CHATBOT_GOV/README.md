@@ -50,6 +50,7 @@ Siga as instruções abaixo para implantar a solução em um novo ambiente local
    
 6. **Acessar a SoluçãoApós o comando acima, o terminal exibirá os endereços de acesso e o navegador deve abrir automaticamente. Geralmente, a aplicação estará disponível em:**
    Local URL: http://localhost:3000
+   
    Network URL: http://192.168.x.x:3000
    
   
