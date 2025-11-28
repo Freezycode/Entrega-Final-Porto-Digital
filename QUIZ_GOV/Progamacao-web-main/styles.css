@@ -1,0 +1,374 @@
+/* ============================================= */
+/* 1. Cores e variáveis globais */
+/* ============================================= */
+:root {
+    /* Define as variáveis de cores usadas em todo o projeto. */
+    --primary-color: #007bff;
+    --secondary-color: #f0f4ff;
+    --text-color: #1d1d1d;
+    --correct-color: #28a745;
+    --incorrect-color: #dc3545;
+    --card-bg: #ffffff;
+    --button-bg: #0066cc;
+    --button-hover: #004c99;
+}
+
+/* ============================================= */
+/* 2. Estilização do corpo (body) e fundo geral */
+/* ============================================= */
+body {
+    /* Reseta margens e preenchimentos e aplica o fundo gradiente azul. */
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(180deg, #eef4ff, #d7e3ff);
+    min-height: 100vh;
+    /* Usa Flexbox para centralizar o conteúdo (cards) na tela. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* ============================================= */
+/* 2.1. Formas decorativas no fundo (gov.br style) */
+/* ============================================= */
+body::before, body::after {
+    /* Cria as formas pseudo-elementos para o design de fundo. */
+    content: "";
+    position: absolute;
+    background: rgba(0, 102, 204, 0.15);
+    border-radius: 20px;
+    transform: rotate(15deg);
+}
+
+/* ============================================= */
+/* 2.2. Posição da forma superior esquerda */
+/* ============================================= */
+body::before {
+    /* Define o tamanho e a posição da primeira forma. */
+    width: 350px;
+    height: 350px;
+    top: 40px;
+    left: -80px;
+}
+
+/* ============================================= */
+/* 2.3. Posição da forma inferior direita */
+/* ============================================= */
+body::after {
+    /* Define o tamanho e a posição da segunda forma. */
+    width: 450px;
+    height: 450px;
+    bottom: -120px;
+    right: -80px;
+}
+
+/* ============================================= */
+/* 2.4. Estilização do cabeçalho de logos */
+/* ============================================= */
+.cabecalho-logos {
+    /* Estiliza e fixa o cabeçalho no topo da tela. */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* ============================================= */
+/* 2.5. Estilização do logo Serpro */
+/* ============================================= */
+.logo-serpro {
+    /* Define a altura e margem do logo Serpro. */
+    height: 25px;
+    margin-right: 10px;
+}
+
+/* ============================================= */
+/* 2.6. Estilização do logo Gov.br */
+/* ============================================= */
+.logo-govbr {
+    /* Define a altura do logo Gov.br. */
+    height: 25px;
+}
+
+/* ============================================= */
+/* 3. Container principal do quiz */
+/* ============================================= */
+.quiz-container {
+    /* Estiliza o card principal do quiz e o centraliza na tela. */
+    background: var(--card-bg);
+    padding: 40px;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    /* Centralização perfeita na tela */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90vh;
+    overflow-y: auto;
+    z-index: 2;
+}
+
+/* ============================================= */
+/* 3.1. Título da pergunta */
+/* ============================================= */
+#pergunta {
+    /* Estiliza o título de cada pergunta. */
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #004a99;
+    line-height: 1.6;
+}
+
+/* ============================================= */
+/* 4. Opções de resposta (container) */
+/* ============================================= */
+.opcao {
+    /* Estilo base para cada opção de resposta. */
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 45px;
+}
+
+/* ============================================= */
+/* 4.1. Esconde o input de rádio original */
+/* ============================================= */
+.opcao input[type="radio"] {
+    /* Torna o input de rádio nativo invisível. */
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* ============================================= */
+/* 4.2. Estiliza o LABEL como botão */
+/* ============================================= */
+.opcao label {
+    /* Transforma o label associado ao rádio em um botão azul estilizado. */
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    background-color: #2e78e2;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* ============================================= */
+/* 4.3. Efeito ao passar o mouse sobre a opção */
+/* ============================================= */
+.opcao label:hover {
+    /* Altera a cor de fundo no estado hover. */
+    background-color: #2762b9;
+}
+
+/* ============================================= */
+/* 4.4. Estilo para opção selecionada */
+/* ============================================= */
+.opcao input[type="radio"]:checked + label {
+    /* Aplica um estilo visual para a opção selecionada (checked). */
+    background-color: #174075;
+    border: 2px solid #fff;
+}
+
+/* ============================================= */
+/* 5. Estilização do botão principal (Avançar/Começar) */
+/* ============================================= */
+.btn {
+    /* Estilização padrão para botões de ação. */
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* ============================================= */
+/* 5.1. Efeito hover do botão */
+/* ============================================= */
+.btn:hover:not(:disabled) {
+    /* Altera a cor de fundo no hover, exceto se desabilitado. */
+    background: #0056b3;
+}
+
+/* ============================================= */
+/* 5.2. Estilo para botão desabilitado */
+/* ============================================= */
+.btn:disabled {
+    /* Estilo de inatividade para o botão. */
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ============================================= */
+/* 6. Container de Feedback (Correto/Incorreto) */
+/* ============================================= */
+.feedback {
+    /* Estilo base para a caixa de feedback após a resposta. */
+    padding: 18px;
+    border-radius: 14px;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}
+
+/* ============================================= */
+/* 6.1. Texto menor do feedback */
+/* ============================================= */
+.feedback small {
+    /* Estilo para textos de apoio dentro da caixa de feedback. */
+    font-weight: normal;
+    display: block;
+    margin-top: 6px;
+    opacity: 0.9;
+}
+
+/* ============================================= */
+/* 6.2. Estilo de feedback correto (verde) */
+/* ============================================= */
+.feedback-correta {
+    /* Cores específicas para feedback de resposta correta. */
+    background: #d4edda;
+    border: 1px solid #28a745;
+    color: #155724;
+}
+
+/* ============================================= */
+/* 6.3. Estilo de feedback errado (vermelho) */
+/* ============================================= */
+.feedback-errada {
+    /* Cores específicas para feedback de resposta incorreta. */
+    background: #f8d7da;
+    border: 1px solid #dc3545;
+    color: #721c24;
+}
+
+/* ============================================= */
+/* 7. Tela de resultado final */
+/* ============================================= */
+#resultado-final {
+    /* Estiliza o card de resultado final e o centraliza. */
+    background: var(--card-bg);
+    padding: 40px;
+    width: 900px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+    display: none;
+    /* Centralização perfeita na tela */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* ============================================= */
+/* 8. Contador para letras A, B, C, D nas opções */
+/* ============================================= */
+#opcoes {
+    /* Inicia o contador para as letras das opções. */
+    counter-reset: letras;
+}
+
+/* ============================================= */
+/* 8.1. Gera e posiciona as letras A, B, C... */
+/* ============================================= */
+.opcao::before {
+    /* Cria o conteúdo (letra) e o posiciona no canto esquerdo da opção. */
+    counter-increment: letras;
+    content: counter(letras, upper-alpha) ") ";
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* ============================================= */
+/* 9. Container da tela inicial */
+/* ============================================= */
+.tela-inicial {
+    /* Define o contêiner da tela inicial para centralização. */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+}
+
+/* ============================================= */
+/* 9.1. Card da tela inicial */
+/* ============================================= */
+.tela-card {
+    /* Estiliza o card (fundo branco) da tela de boas-vindas. */
+    width: 900px;
+    background: var(--card-bg);
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 2;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* ============================================= */
+/* 9.2. Ícone de interrogação central */
+/* ============================================= */
+.icone-central {
+    /* Estiliza o ícone de interrogação. */
+    font-size: 4rem;
+    font-weight: bold;
+    color: #004a99;
+    margin-bottom: 20px;
+}
+
+/* ============================================= */
+/* 9.3. Título principal da tela inicial */
+/* ============================================= */
+.tela-card h2 {
+    /* Estiliza o título principal do card. */
+    font-size: 1.8rem;
+    color: #002f6c;
+    margin-bottom: 15px;
+}
+
+/* ============================================= */
+/* 9.4. Parágrafo de descrição da tela inicial */
+/* ============================================= */
+.tela-card p {
+    /* Estiliza o texto descritivo do card. */
+    font-size: 1.05rem;
+    color: #333;
+    margin-bottom: 35px;
+    line-height: 1.6;
+}

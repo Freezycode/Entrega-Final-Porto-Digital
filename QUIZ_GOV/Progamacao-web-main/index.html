@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz de Segurança Digital</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- NOVO CABEÇALHO COM OS LOGOS -->
+    <nav class="cabecalho-logos">
+        <img src="SERPRO.png" alt="Logo Serpro" class="logo-serpro">
+        <img src="GOV1.png" alt="Logo Gov.br" class="logo-govbr">
+    </nav>
+    <!-- FIM DO NOVO CABEÇALHO -->
+
+    <div class="container">
+        <!-- TELA INICIAL -->
+        <div id="tela-inicial" class="tela-inicial">
+            <div class="tela-card">
+                <div class="icone-central">?</div>
+
+                <h2>Sua Segurança Digital em Foco</h2>
+                <p>
+                    No mundo conectado de hoje, proteger suas informações é essencial.
+                    Este quiz vai testar seus conhecimentos sobre como se manter seguro
+                    no ambiente digital. Será que você está tomando todas as precauções?
+                    Descubra agora e aprenda a como se proteger!
+                </p>
+
+                <button id="botao-comecar" class="btn primary">
+                    COMEÇAR
+                </button>
+            </div>
+        </div>
+
+
+        <div class="quiz-container">
+            <p id="pergunta" class="pergunta"></p>
+
+            <!-- Opções -->
+            <div id="opcoes" class="opcoes"></div>
+
+            <!-- Feedback da resposta -->
+            <div id="feedback-resposta" class="feedback" style="display: none;"></div>
+
+            <!-- Botão Confirmar Resposta -->
+            <button id="botao-confirmar" class="btn secondary" disabled>
+                Confirmar Resposta
+            </button>
+
+            <!-- Botão Próxima Pergunta -->
+            <button id="botao-proxima" class="btn primary" style="display: none;">
+                Próxima Pergunta →
+            </button>
+        </div>
+
+        <!-- Resultado Final -->
+        <div id="resultado-final" class="resultado" style="display: none;"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
