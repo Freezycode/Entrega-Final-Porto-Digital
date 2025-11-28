@@ -1,4 +1,4 @@
-## Residência Tecnológica: Soluções Antifraude GOV.BR
+ Residência Tecnológica: Soluções Antifraude GOV.BR
 
 Bem-vindo ao repositório oficial do Hackathon de Ideias da Residência Tecnológica.  
 Este projeto é fruto da colaboração entre o mercado corporativo e estudantes do curso  
@@ -7,7 +7,7 @@ inovadoras para segurança cibernética.
 
 ---
 
-## Contexto e Desafio
+ Contexto e Desafio
 
 Uma empresa parceira apresentou um desafio real: a necessidade de centralizar e  
 disseminar conhecimentos sobre antifraudes cibernéticas, com foco específico nas  
@@ -25,15 +25,15 @@ de trabalho (equipes), cada uma responsável por uma abordagem distinta do probl
 
  👥 Organização das Equipes
 
-### • Equipe 1: Prevenção e Conscientização (Quiz Interativo)
+ • Equipe 1: Prevenção e Conscientização (Quiz Interativo)
 **Foco:** Educação do usuário final.  
 **Solução:** Um Quiz gamificado que ensina, através de perguntas e cenários práticos, como ativar e utilizar as proteções do GOV.BR (2FA, selos de confiabilidade, etc.).
 
-### • Equipe 2: Suporte e Conhecimento (Chatbot)
+ • Equipe 2: Suporte e Conhecimento (Chatbot)
 **Foco:** Suporte ativo e repositório de dúvidas.  
 **Solução:** Um assistente virtual inteligente capaz de responder perguntas frequentes sobre fraudes e orientar o usuário na recuperação e proteção de sua conta.
 
-## ▶️ Como Rodar os Projetos (Quiz + Chatbot)
+ ▶️ Como Rodar os Projetos (Quiz + Chatbot)
 
 Este repositório contém dois projetos independentes, cada um criado por uma equipe da Squad.  
 Ambos são 100% frontend, ou seja, não usam Node.js, Express, banco de dados ou dependências externas.  
@@ -74,11 +74,11 @@ de trabalho (equipes), cada uma responsável por uma abordagem distinta do probl
 
  👥 Organização das Equipes
 
-### • Equipe 1: Prevenção e Conscientização (Quiz Interativo)
+ • Equipe 1: Prevenção e Conscientização (Quiz Interativo)
 **Foco:** Educação do usuário final.  
 **Solução:** Um Quiz gamificado que ensina, através de perguntas e cenários práticos, como ativar e utilizar as proteções do GOV.BR (2FA, selos de confiabilidade, etc.).
 
-### • Equipe 2: Suporte e Conhecimento (Chatbot)
+ • Equipe 2: Suporte e Conhecimento (Chatbot)
 **Foco:** Suporte ativo e repositório de dúvidas.  
 **Solução:** Um assistente virtual inteligente capaz de responder perguntas frequentes sobre fraudes e orientar o usuário na recuperação e proteção de sua conta.
 
