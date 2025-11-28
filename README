@@ -1,4 +1,4 @@
-# Residência Tecnológica: Soluções Antifraude GOV.BR
+## Residência Tecnológica: Soluções Antifraude GOV.BR
 
 Bem-vindo ao repositório oficial do Hackathon de Ideias da Residência Tecnológica.  
 Este projeto é fruto da colaboração entre o mercado corporativo e estudantes do curso  
@@ -18,14 +18,12 @@ engenharia social.
 
 ---
 
-## 🚀 O Hackathon
+ 🚀 O Hackathon
 
 Para solucionar essa problemática, foi criada uma Squad ágil, dividida em duas frentes  
 de trabalho (equipes), cada uma responsável por uma abordagem distinta do problema.
 
----
-
-## 👥 Organização das Equipes
+ 👥 Organização das Equipes
 
 ### • Equipe 1: Prevenção e Conscientização (Quiz Interativo)
 **Foco:** Educação do usuário final.  
@@ -35,23 +33,19 @@ de trabalho (equipes), cada uma responsável por uma abordagem distinta do probl
 **Foco:** Suporte ativo e repositório de dúvidas.  
 **Solução:** Um assistente virtual inteligente capaz de responder perguntas frequentes sobre fraudes e orientar o usuário na recuperação e proteção de sua conta.
 
----
-
 ## ▶️ Como Rodar os Projetos (Quiz + Chatbot)
 
 Este repositório contém dois projetos independentes, cada um criado por uma equipe da Squad.  
 Ambos são 100% frontend, ou seja, não usam Node.js, Express, banco de dados ou dependências externas.  
 Eles funcionam diretamente no navegador.
 
----
+ 🎮 Projeto 1 — Quiz Interativo (Equipe 1)
 
-## 🎮 Projeto 1 — Quiz Interativo (Equipe 1)
-
-### ✔️ Como rodar (modo simples)
+ ✔️ Como rodar (modo simples)
 
 Clone o repositório:
 
-# Residência Tecnológica: Soluções Antifraude GOV.BR
+ Residência Tecnológica: Soluções Antifraude GOV.BR
 
 Bem-vindo ao repositório oficial do Hackathon de Ideias da Residência Tecnológica.  
 Este projeto é fruto da colaboração entre o mercado corporativo e estudantes do curso  
@@ -60,7 +54,7 @@ inovadoras para segurança cibernética.
 
 ---
 
-## Contexto e Desafio
+Contexto e Desafio
 
 Uma empresa parceira apresentou um desafio real: a necessidade de centralizar e  
 disseminar conhecimentos sobre antifraudes cibernéticas, com foco específico nas  
@@ -71,14 +65,14 @@ engenharia social.
 
 ---
 
-## 🚀 O Hackathon
+ 🚀 O Hackathon
 
 Para solucionar essa problemática, foi criada uma Squad ágil, dividida em duas frentes  
 de trabalho (equipes), cada uma responsável por uma abordagem distinta do problema.
 
 ---
 
-## 👥 Organização das Equipes
+ 👥 Organização das Equipes
 
 ### • Equipe 1: Prevenção e Conscientização (Quiz Interativo)
 **Foco:** Educação do usuário final.  
@@ -90,17 +84,15 @@ de trabalho (equipes), cada uma responsável por uma abordagem distinta do probl
 
 ---
 
-## ▶️ Como Rodar os Projetos (Quiz + Chatbot)
+ ▶️ Como Rodar os Projetos (Quiz + Chatbot)
 
 Este repositório contém dois projetos independentes, cada um criado por uma equipe da Squad.  
 Ambos são 100% frontend, ou seja, não usam Node.js, Express, banco de dados ou dependências externas.  
 Eles funcionam diretamente no navegador.
 
----
+ 🎮 Projeto 1 — Quiz Interativo (Equipe 1)
 
-## 🎮 Projeto 1 — Quiz Interativo (Equipe 1)
-
-### ✔️ Como rodar (modo simples)
+✔️ Como rodar (modo simples)
 
 Clone o repositório:
 
@@ -111,9 +103,7 @@ Entre na pasta do Quiz.
 Clique duas vezes no arquivo **index.html**.  
 O quiz abrirá automaticamente no navegador.
 
----
-
-### ✔️ Rodar com Live Server (VS Code)
+✔️ Rodar com Live Server (VS Code)
 
 Abra o projeto no VS Code.  
 Clique com o botão direito em **index.html**.  
@@ -122,9 +112,6 @@ Selecione **“Open with Live Server”**.
 O projeto abrirá em:
 
 http://127.0.0.1:5500/
-
-
----
 
 ## 🤖 Projeto 2 — Chatbot “Gov.br Seguro” (Equipe 2)
 
